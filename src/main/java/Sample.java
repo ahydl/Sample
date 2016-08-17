@@ -46,7 +46,8 @@ public class Sample {
 
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
         try {
-
+            byte[] buffer = new byte[100];
+            stream.write(buffer, 0, 10);
         } catch (Exception e) {};
 
     }
