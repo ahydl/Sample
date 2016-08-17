@@ -5,6 +5,18 @@ import java.util.Map;
 
 public class Sample {
 
+
+    public void Test() {
+        long[] testArr = {0,1,2,3,4,5,6,7,8,9};
+        for(int i=0; i < testArr.length; i++) {
+            int val = (int) Math.floor(i / 2);
+
+            if(val % 2 == 0) {
+                continue;
+            }
+        }
+    }
+
     private String testValue = "SONAR";
 
     public void Test1() {
@@ -47,14 +59,5 @@ public class Sample {
 
 
 
-    public void Test3() {
-        long[] testArr = {0,1,2,3,4,5,6,7,8,9};
-        for(int i=0; i < testArr.length; i++) {
-            int val = (int) Math.floor(i / 2);
 
-            if(val % 2 == 0) {
-                continue;
-            }
-        }
-    }
 }
