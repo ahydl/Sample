@@ -26,7 +26,6 @@ public class Sample {
 
 
     public void Test2() {
-
         Map<String, Object> sampleMap = new HashMap<String, Object>();
         if(sampleMap == null) {
 
@@ -38,8 +37,17 @@ public class Sample {
 
         } catch (Exception e) {};
 
+    }
 
 
+    public List<String> SampleMethod1() {
+
+        return null;
+    }
+
+
+
+    public void Test3() {
         long[] testArr = {0,1,2,3,4,5,6,7,8,9};
         for(int i=0; i < testArr.length; i++) {
             int val = (int) Math.floor(i / 2);
@@ -48,11 +56,5 @@ public class Sample {
                 continue;
             }
         }
-
-    }
-
-    public List<String> SampleMethod1() {
-
-        return null;
     }
 }
