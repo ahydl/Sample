@@ -36,12 +36,14 @@ public class Sample {
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
         try {
 
-        } catch (Exception e) {
+        } catch (Exception e) {};
 
-        }
+
 
         long[] testArr = {0,1,2,3,4,5,6,7,8,9};
-        for(long val : testArr) {
+        for(int i=0; i < testArr.length; i++) {
+            int val = (int) Math.floor(i / 2);
+
             if(val % 2 == 0) {
                 continue;
             }
