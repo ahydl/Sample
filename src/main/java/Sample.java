@@ -26,11 +26,12 @@ public class Sample {
 
 
         if (booleanValue == true) {
+            System.out.print("####");
 
         }
 
         if (testValue.equals(testValue2.toString()) ==  false) {
-
+            System.out.print("####");
         }
 
 
