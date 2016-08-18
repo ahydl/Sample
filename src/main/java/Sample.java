@@ -24,6 +24,12 @@ public class Sample {
         String testValue2 = "TEST";
         boolean booleanValue = true;
 
+        if(testValue1.equals(testValue2)) {
+            booleanValue = false;
+        } else {
+            booleanValue = true;
+        }
+
 
         if (booleanValue == true) {
             System.out.print("####");
